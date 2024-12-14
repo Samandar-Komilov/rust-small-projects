@@ -1,5 +1,7 @@
 // Characters (`char`)
 
+/* CONCLUSION: char type is a Unicode point, not ASCII character. */
+
 fn main() {
     // Note the _single_ quotes, these are different from the double quotes
     // you've been seeing around.
@@ -16,7 +18,7 @@ fn main() {
     // below with your favorite character.
     // Try a letter, try a digit (in single quotes), try a special character, try a character
     // from a different language than your own, try an emoji 😉
-    // let your_character = '';
+    let your_character: char = 'б';
 
     if your_character.is_alphabetic() {
         println!("Alphabetical!");
